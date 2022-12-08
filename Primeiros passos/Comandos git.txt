@@ -1,0 +1,90 @@
+# Lista de Comandos Git :thumbsup:
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace
+$ mkdir livro-receitas //**criar nova pasta** 
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace
+$ ls // **listar**
+livro-receitas/
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace
+$ ls -a// **listar com listas ocultas**
+livro-receitas/
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace
+$ cd livro-receitas //**caminhar pelo diretorio**
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace/livro-receitas
+$ git init 	//
+Initialized empty Git repository in C:/workspace/livro-receitas/.git/
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace/livro-receitas (master)
+$ ls
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace/livro-receitas (master)
+$ ls -a	//**listar pastas ocultas**
+./  ../  .git/
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace/livro-receitas (master)
+$
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace/livro-receitas (master)
+$ git add *
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace/livro-receitas (master)
+$ git commit -m "commit inicial" // **criar um commit** 
+[master (root-commit) 4566baf] commit inicial
+ 1 file changed, 1 insertion(+)
+ create mode 100644 strogonoff.md
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace/livro-receitas (master)
+$
+
+Felipe@DESKTOP-QK9C68L MINGW64 /c/workspace/livro-receitas (master)
+$ git config --global --unset user.email// **exclui o e-mail das configurações** 
+
+
+
+$ git config --global --unset user.name// **exclui o nome do autor das configurações** 
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 ~/Desktop
+$ $ git config --global --user.email// **acrescenta o e-mail nos dados do git **
+
+
+
+$ git config --global --user.name// **acrescenta o nome do autor das configurações** 
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 ~/Desktop
+$ git remote -v //**Traz os repositorios remotos**
+
+
+
+Felipe@DESKTOP-QK9C68L MINGW64 ~/Desktop
+$git clone (https.exemplo.com)
+
+git pull origin master //**puxa o repositório**
+
